@@ -1,0 +1,49 @@
+
+.wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-create-wrapper {
+  padding: 20px;
+}
+
+.user-create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+}
+
+.user-info {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-age {
+  color: #ccc;
+}
+
+.red {
+  color: red;
+}
+
+.delete-user {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
